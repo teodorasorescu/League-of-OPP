@@ -83,7 +83,7 @@ Ingeri:
  sfarsitul sirului, prinintermediul careia am eliminat virgula. Pentru scrierea
  output-ului am folosit system.out.println(). 
 
-    Strategii eroi
+Strategii eroi
 	In interfata heroes am adaugat o noua metoda newFeatures care este 
  suprascrisa in fiecare clasa de erou si apelata in main inainte de a executa
  urmatoarea miscare.
@@ -93,14 +93,14 @@ Ingeri:
  , a mai fost adaugata o metoda care initializeaza valorile din tabelele cu 
  modificatorii de rasa pentru fiecare jucator. 
 
-    Ingeri
+ Ingeri
 	Am folosit factory pentru crearea ingerilor si visitor pentru tipul 
  ingerilor. In fiecare metoda visit este apelata strategia ingerului respectiv.
  Pentru fiecare clasa de inger exista o clasa de strategie, fiind folosit 
  strategy pattern, atat pentru abilitatile ingerilor, cat si pentru strategiile
  eroilor.
 
-    Marele Magician
+ Marele Magician
 	Pentru instantierea acestuia este folosit singleton, folosindu-se o
  singura instanta a obiectului. Cu scopul de a anunta marele magician de
  schimbarile mentionate au fost create patru clase care implementeaza clasa
